@@ -33,3 +33,20 @@ df = pd.DataFrame(data)
 
 # print(df[df['name'].isin(['Hadi'])])
 # print(df[~df['name'].isin(['Hadi'])]) # همه بجز هادی رو نشون بده
+
+# print(df.sort_values(['math'], ascending=False))
+
+# print(df.value_counts(subset=['class'])) # شمارش تکرار مقادیر
+
+# print(df['math'].mean())
+
+# print(df['math'].sum())
+
+# print(df['math'].std(), df['physics'].std())
+# print(df['math'].var(), df['physics'].var())
+
+# print(df.groupby('class')['math'].mean())
+# print(df.groupby('class')['math'].agg(['mean', 'min', 'max']))
+# print(df.groupby(['class', 'name']).size())
+# print(df.groupby('class')['math'].mean().reset_index()) # ایندکس دهی و تمیزکاری
+# print(df.groupby('class')['math'].transform('mean'))
