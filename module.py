@@ -45,5 +45,10 @@ class School:
         chemistry = self.dataframe['chemistry'].max()
         return {'math':math, 'physics':physics, 'chemistry':chemistry}
     
+    def best_student(self):
+        self.add_avg_column()
+        student = self.dataframe.loc[self.dataframe['average'].idxmax()]
+        return student
+    
     def get_dataframe(self):
         return self.dataframe

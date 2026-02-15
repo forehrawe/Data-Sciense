@@ -1,0 +1,21 @@
+employee_id,name,department,position,salary,join_date,project,performance_score
+1001,Ali Reza,IT,Developer,120000,2020-05-10,Alpha,88
+1002,Maryam Karimi,HR,Manager,95000,2019-03-22,Beta,92
+1003,Hossein Mohammadi,IT,Tester,85000,2021-07-01,Alpha,75
+1004,Reza Ahmadi,Finance,Analyst,105000,2018-11-15,Gamma,80
+1005,Sara Hosseini,Marketing,Executive,90000,2020-01-20,Delta,85
+1006,Mehdi Shariati,IT,Developer,125000,2017-06-30,Alpha,95
+1007,Neda Farhadi,HR,Assistant,70000,2021-02-10,Beta,70
+1008,Kamran Salehi,Finance,Manager,115000,2019-09-12,Gamma,90
+1009,Laleh Jafari,Marketing,Executive,95000,2022-03-05,Delta,78
+1010,Sina Moradi,IT,Developer,130000,2020-10-17,Alpha,82
+1011,Pari Kiani,HR,Manager,98000,2018-08-25,Beta,88
+1012,Kourosh Danesh,Finance,Analyst,108000,2021-01-15,Gamma,84
+1013,Tara Ebrahimi,Marketing,Executive,92000,2019-12-01,Delta,91
+1014,Navid Azimi,IT,Tester,87000,2020-04-12,Alpha,76
+1015,Yasmin Shahri,HR,Assistant,72000,2022-06-18,Beta,65
+1016,Arman Khosravi,Finance,Manager,118000,2017-09-20,Gamma,89
+1017,Lina Ahmadi,Marketing,Executive,94000,2021-05-22,Delta,83
+1018,Ramin Ghavami,IT,Developer,128000,2019-07-30,Alpha,91
+1019,Niki Shams,HR,Manager,97000,2020-11-11,Beta,87
+1020,Sadegh Rahimi,Finance,Analyst,107000,2022-01-08,Gamma,79

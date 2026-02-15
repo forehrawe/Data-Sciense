@@ -13,13 +13,14 @@ df = pd.DataFrame(data)
 ins = School(df)
 while True:
     print('''
-          1-replace nan fields wiht mean of course
+          1-replace nan fields with mean of course
           2-add avg column
           3-top student in courses
           4-courses mean
           5-min score
           6-max score
-          7-export to csv
+          7-best student
+          8-export to csv
           or exit
           ''')
     opt = input('choose option: ')
@@ -44,7 +45,7 @@ while True:
         elif ts_opt == '3':
             print(ins.top_student_physics())
         else:
-            print('invalid')
+            print('invalid value')
             
     elif opt == '4':
         print(ins.course_mean())
@@ -55,7 +56,10 @@ while True:
     elif opt =='6':
         print(ins.max_score())
         
-    elif opt =='7':
+    elif opt == '7':
+        print(ins.best_student())
+        
+    elif opt =='8':
         new_df = ins.get_dataframe()
         new_df.to_csv('school.csv', index=False)
         
@@ -63,4 +67,4 @@ while True:
         break
     
     else:
-        print('invalid')
+        print('invalid value')
